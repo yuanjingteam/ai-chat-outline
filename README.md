@@ -79,11 +79,10 @@ pnpm preview
 starfall-portfolio/
 ├─ src/
 │  ├─ components/        # 通用组件
-│  ├─ pages/             # 页面级组件
+│  ├─ assets/            # 静态资源与图片
 │  ├─ styles/            # 全局样式或样式模块
 │  ├─ App.tsx       # 应用入口组件
 │  └─ main.tsx      # 渲染入口
-├─ public/               # 公共静态资源
 ├─ package.json
 └─ README.md
 ```

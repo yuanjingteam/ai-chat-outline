@@ -3,11 +3,14 @@ import {
   PortfolioPageProps,
 } from "./components/ui/starfall-portfolio-landing";
 
+const logoUrl = new URL("./assets/logo.png", import.meta.url).href;
+const multiModelUrl = new URL("./assets/mulit.png", import.meta.url).href;
+const historyUrl = new URL("./assets/history.png", import.meta.url).href;
+const quickUrl = new URL("./assets/quick.png", import.meta.url).href;
+
 const customPortfolioData: PortfolioPageProps = {
   logo: {
-    initials: (
-      <img src="/logo.png" alt="AI Chat Navigator" className="w-6 h-6" />
-    ),
+    initials: <img src={logoUrl} alt="AI Chat Navigator" className="w-6 h-6" />,
     name: "AI Chat Navigator",
   },
   navLinks: [
@@ -54,10 +57,10 @@ const customPortfolioData: PortfolioPageProps = {
       title: "支持主流大模型",
       description:
         "全面适配多平台环境，各类设备与页面均可稳定运行，兼容性强，使用无门槛。",
-      tags: ["跨平台运行","多设备适配","环境兼容无忧"],
+      tags: ["跨平台运行", "多设备适配", "环境兼容无忧"],
       imageContent: (
         <div className="text-4xl">
-          <img src="/mulit.png" />
+          <img src={multiModelUrl} />
         </div>
       ),
     },
@@ -65,20 +68,21 @@ const customPortfolioData: PortfolioPageProps = {
       title: "深浅主题自动适配",
       description:
         "该插件支持页面色彩实时切换，一键更换主题配色，适配各类界面，优化视觉浏览体验",
-      tags: ["页面色彩切换","主题一键换新","视觉体验优化"],
+      tags: ["页面色彩切换", "主题一键换新", "视觉体验优化"],
       imageContent: (
         <div className="text-4xl">
-          <img src="/history.png" />
+          <img src={historyUrl} />
         </div>
       ),
     },
     {
       title: "智能追溯轨迹",
-      description:   "该工具插件支持历史记录查看，助您轻松追踪过往操作，提升使用效率。",
+      description:
+        "该工具插件支持历史记录查看，助您轻松追踪过往操作，提升使用效率。",
       tags: ["历史追踪记录", "操作轨迹回溯", "使用效率提升"],
       imageContent: (
         <div className="text-4xl">
-          <img src="/quick.png" />
+          <img src={quickUrl} />
         </div>
       ),
     },
