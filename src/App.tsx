@@ -57,7 +57,7 @@ const customPortfolioData: PortfolioPageProps = {
       tags: ["跨平台运行","多设备适配","环境兼容无忧"],
       imageContent: (
         <div className="text-4xl">
-          <img src="../public/mulit.png"></img>
+          <img src="/mulit.png" />
         </div>
       ),
     },
@@ -68,7 +68,7 @@ const customPortfolioData: PortfolioPageProps = {
       tags: ["页面色彩切换","主题一键换新","视觉体验优化"],
       imageContent: (
         <div className="text-4xl">
-          <img src="../public/history.png"></img>
+          <img src="/history.png" />
         </div>
       ),
     },
@@ -78,7 +78,7 @@ const customPortfolioData: PortfolioPageProps = {
       tags: ["历史追踪记录", "操作轨迹回溯", "使用效率提升"],
       imageContent: (
         <div className="text-4xl">
-          <img src="../public/quick.png"></img>
+          <img src="/quick.png" />
         </div>
       ),
     },
