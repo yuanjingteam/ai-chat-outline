@@ -11,7 +11,7 @@ const quickUrl = new URL("./assets/quick.png", import.meta.url).href;
 const customPortfolioData: PortfolioPageProps = {
   logo: {
     initials: <img src={logoUrl} alt="AI Chat Navigator" className="w-6 h-6" />,
-    name: "AI Chat Navigator",
+    name: "AI Chat Outline",
   },
   navLinks: [
     { label: "安装", href: "#install" },

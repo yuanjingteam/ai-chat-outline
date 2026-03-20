@@ -1,4 +1,4 @@
-# AI Chat Navigator 浏览器扩展下载页
+# AI Chat  Outline浏览器扩展下载页
 
 这是一个基于 React 和 TailwindCSS 构建的单页宣传网站，用于介绍并引导用户安装 AI Chat Navigator 浏览器扩展，在多个 AI 聊天平台中快速搜索和管理历史对话。
 
